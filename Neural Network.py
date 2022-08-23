@@ -65,6 +65,7 @@ def NeuralLoop(init_x, init_y, iterations):
         output.append(new_network.output)
         
     return output, new_network.output
+   
 init_x_array = np.array([[0,0,1],[0,1,1],[1,0,1],[1,1,1]])
 init_y_array = np.array([[0],[1],[1],[0]])  
 new_loop = NeuralLoop(init_x_array, init_y_array, 1500)
