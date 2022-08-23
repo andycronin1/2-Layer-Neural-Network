@@ -55,7 +55,7 @@ class NeuralNetwork:
         self.weights1 += d_weights1
         self.weights2 += d_weights2
     
-
+#Adding function for generating a looping network
 def NeuralLoop(init_x, init_y, iterations): 
     output = []
     new_network = NeuralNetwork(init_x,init_y)
